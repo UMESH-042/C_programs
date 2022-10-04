@@ -1,0 +1,11 @@
+.heart {
+    position: relative;
+    height: 160px;
+    width: 100px;
+    background-color: coral;
+    transform: rotate(45deg);
+
+}
+.heart::before{
+    counter-reset: none;
+}
